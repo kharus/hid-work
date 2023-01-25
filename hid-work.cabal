@@ -46,6 +46,7 @@ library
       LearnState.Weapons
       Expr
       LearnState.ShuntingYard
+      LearnTypes.TempPhantom
     other-modules:
       Paths_hid_work
     -- Modules included in this executable, other than Main.
@@ -111,6 +112,7 @@ test-suite hid-work-test
 
     other-modules:
       LearnState.ShuntingYardSpec
+      LearnTypes.TempPhantomSpec
 
     -- Test dependencies.
     build-depends:
